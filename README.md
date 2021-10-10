@@ -1,8 +1,10 @@
 # Today I Learned(TIL) Wiki
 
+
+
 ### Error
  - CORS
-    - [CORS 오류](./error/corsErr.md)
+    - [CORS 오류](./Error/corsErr.md)
 
 
 ### node.js 교과서 공부
