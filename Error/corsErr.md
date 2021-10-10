@@ -28,7 +28,6 @@ Access to XMLHttpRequest at '주소A' from origin '주소B' has been blocked by 
             password: password,
             email: email,
           },
-          { headers: headers },
         )
         .then((res) => {
           alert(res.data.username)
@@ -67,7 +66,13 @@ Access to XMLHttpRequest at '주소A' from origin '주소B' has been blocked by 
     ```jsx
       const signupFB = (username, password, email) => {
       return function (dispatch, getState, { history }) {
-            
+      const headers = {
+        //   "Content-Type": "multipart/form-data",
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+      };
+
+      
         axios
         .post(
           "http://127.0.0.1:8080/api/user",
