@@ -3,11 +3,13 @@
 ### 내가 편하게 쓸려고 만드는 Sequelize
 
 - Sequelize 모듈 설치
+
   ```jsx
   npm i sequelize mysql2 -S
 
   npm i sequelize-cli -D
   ```
+
 - 사용준비
   ```jsx
   npx sequelize init
