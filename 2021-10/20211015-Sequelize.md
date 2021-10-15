@@ -43,8 +43,8 @@
   > name에 설정한 Post로 exports 하기때문에 저 이름으로 꼭 require로 할 수 있도록 참고 하자!!!
 
   - 추가 수정 사항
-    moduels의 기본값들 수정 할 부분 있으면 수정하고
-    migrations의 파일도 수정 해준다.
+    - moduels의 기본값들 수정 할 부분 있으면 수정하고
+    - migrations의 파일도 수정 해준다.
 
 - 테이블 생성
   ```jsx
