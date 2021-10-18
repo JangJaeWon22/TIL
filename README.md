@@ -19,6 +19,7 @@
   - [15일(내가 보기 편할려고 만드는 Sequelize)](./2021-10/20211015-Sequelize.md)
   - [16일(git PR 해보기)](./2021-10/20211016-gitPR.md)
   - [17일(항해99-3주차-project회고)](./2021-10/20211017-project회고.md)
+  - [18일(MySQL Foreign-KEY)](./2021-10/20211018-MySQL-FK.md)
 
 ### node.js 교과서 공부
 
