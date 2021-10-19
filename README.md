@@ -4,6 +4,7 @@
 
 - CORS
   - [CORS 오류](./Error/corsErr.md)
+  - [ERR_HTTP_HEADERS_SENT 에러](./Error/ERR_HTTP_HEADERS_SENT.md)
 
 ### 2021 TIL
 
