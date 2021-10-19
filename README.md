@@ -21,6 +21,7 @@
   - [16일(git PR 해보기)](./2021-10/20211016-gitPR.md)
   - [17일(항해99-3주차-project회고)](./2021-10/20211017-project회고.md)
   - [18일(MySQL Foreign-KEY)](./2021-10/20211018-MySQL-FK.md)
+  - [19일(winston)](./2021-10/20211019-winston.md)
 
 ### node.js 교과서 공부
 
