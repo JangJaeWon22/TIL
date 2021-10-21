@@ -23,6 +23,7 @@
   - [18일(MySQL Foreign-KEY)](./2021-10/20211018-MySQL-FK.md)
   - [19일(winston)](./2021-10/20211019-winston.md)
   - [20일(MySQL ec2 설치)](./2021-10/20211020-ec2mysql.md)
+  - [21일(jest 다시 공부)](./2021-10/20211021-jest.md)
 
 ### node.js 교과서 공부
 
