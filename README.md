@@ -26,8 +26,9 @@
 
 ### 💻 project-retrospective
 
-- [hanghae99-week4](./project-retrospective/hanghae99-week4.md)
-- [hanghae99-week5](./project-retrospective/hanghae99-week5.md)
+- 항해99 회고록
+  - [미니프로젝트2[hanghae99-week4]](./project-retrospective/hanghae99-week4.md)
+  - [미니프로젝트3[hanghae99-week5]](./project-retrospective/hanghae99-week5.md)
 
 ### node.js 교과서 공부
 
