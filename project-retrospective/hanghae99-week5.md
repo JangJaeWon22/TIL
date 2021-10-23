@@ -79,7 +79,7 @@ https://docs.google.com/spreadsheets/d/1C2EIqLhK7BeodXyVxayOFfIX0kb5Aue_fLQQk4xZ
 
 ## 📠 회고록
 
-1. 5일이라는 시간동안 최대한 많은 기능을 가져오기 위해 노력
+### 1. 5일이라는 시간동안 최대한 많은 기능을 가져오기 위해 노력
 
 - 현재 실력을 가늠하여 팔로우 기능에 시간을 투자하기에는 부담이 컸다.
 - 생각보다 기능들끼리 묶여 있어서 어떻게 분리하면 최대한의 기능을 챙길 수 있을까 고민
@@ -88,7 +88,7 @@ https://docs.google.com/spreadsheets/d/1C2EIqLhK7BeodXyVxayOFfIX0kb5Aue_fLQQk4xZ
 - 현재 문제가 되는 부분을 최대한 가지고 있기 위해 logging 구현. (파일로 log 저장)
 - jest test code를 작성하여 시스템 로직에 맞게 msg가 전달이 되는지 확인.
 
-2. 프로젝트를 시작하면서 미쳐 파악하지 못한점
+### 2. 프로젝트를 시작하면서 미쳐 파악하지 못한점
 
 - 전체 게시물을 조회 할 때, 좋아요 갯수와 댓글을 같이 불러와서 front-end에서 뿌려주는 작업을 진행을 해야된다는 점을 미쳐 시작할 때 파악하지 못해, 뒤늦게 작업을 하게 됨.
 - 좋아요 갯수는 join을 사용해 해당 게시글의 id값을 가진 좋아요 db를 불러와 갯수를 join 시킴.
@@ -96,7 +96,7 @@ https://docs.google.com/spreadsheets/d/1C2EIqLhK7BeodXyVxayOFfIX0kb5Aue_fLQQk4xZ
 - 게시글의 해당 id값을 가진 댓글 db를 불러와 join을 시킬 생각이였지만, 미들웨어로 댓글 db의 내용을 findAll 하여 전달을 해도 표현이 가능한가에 대해 팀원들의 회의를 통해 후자를 택함.
 - 하지만 front-end 댓글을 각 게시글의 id의 값으로 분류 후 화면에 찍어주는 일이 생각보다 까다롭게 느껴져서 시간 관계 상 더 파고들며 댓글을 어떻게든 보여주는 작업을 못하게 되었다.
 
-3.  winston 적용
+### 3. winston 적용
 
 - 현재 나의 담당은 댓글 작성 조회 수정 삭제, 좋아요 추가 조회 삭제 기능을 맡았고, 어떻게 하면 logger을 이쁘게 보여주며, 잘 가지고 다닐까 하는 생각이들었다.
 
@@ -118,7 +118,7 @@ https://docs.google.com/spreadsheets/d/1C2EIqLhK7BeodXyVxayOFfIX0kb5Aue_fLQQk4xZ
 - 그리고 계속 console.log을 찍어 대는게 아니라 production 일때는 console로 표현이 안되게 했다.
 - 서버를 못보고 있을때 발생한 에러또는 작업 현황을 알기위해 file 시스템으로 적용 시켰지만, 현재 프로젝트의 진행과정을 고려하여 일자별, 어떤 조건에 대해 log 저장 파일 초기화 하는 작업을 진행하지 못해서 많이 아쉬웠다.
 
-4.  jest
+#### 4. jest
 
 - 수요일 중간 점검 멘토링 과정 중 테스트 코드를 작성 해보라고 말씀 하심.
 - 어떤 부분을 테스트 해야될지에 대해 고민 하다가 좋아요 기능에서 로직이 실행 될 때 적절한 res.send({msg})가 전달 되는지 확인하려고 했다.
