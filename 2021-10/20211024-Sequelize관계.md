@@ -82,6 +82,8 @@
     자동으로 생성된 PostHashtag 모델에도 접근 가능함.
     db.sequelize.models.PostHashTag
     
+    ---
+    
     ### 관계 쿼리
     
     findOne이나 findAll 메서드를 호출할 때 프로미스의 결과로 모델을 반환.
