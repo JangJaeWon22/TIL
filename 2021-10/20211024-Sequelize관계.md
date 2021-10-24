@@ -68,7 +68,8 @@
   ```
   자동으로 생성된 PostHashtag 모델에도 접근 가능함.
   db.sequelize.models.PostHashTag
-  ***
+
+---
 
 ### 🔗 관계 쿼리
 
