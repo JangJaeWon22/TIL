@@ -25,10 +25,6 @@
   - [21일~22일(jest 다시 공부)](./2021-10/20211021-jest.md)
   - [24일(sequelize 관계 설정 공부)](./2021-10/20211024-Sequelize관계.md)
 
-### 🛠 Clean Architecture
-
-- [1-1 설계와 아키텍처](./clean-architecture/1.md)
-
 ### 💻 project-retrospective
 
 - 항해99 회고록
