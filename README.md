@@ -27,7 +27,7 @@
   - [24일(sequelize 관계 설정 공부)](./2021-10/20211024-Sequelize관계.md)
 
 - 11월
-  - [10일(passport(local,kakao))](./2021-11/20211110.md)
+  - [10일(passport(local,kakao,jwt))](./2021-11/20211110.md)
 
 ### 💻 project-retrospective
 
