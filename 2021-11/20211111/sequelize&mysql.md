@@ -141,8 +141,10 @@ module.exports = (sequelize, DataTypes) => {
 
 - N:M ⇒ user.Followers, user.Followings
 
-> 참고
+> #### 참고
+>
 > 다른 모든 테이블 user 테이블과 관계 형성함.
+>
 > [src/models](./src/models)
 
 - db생성
