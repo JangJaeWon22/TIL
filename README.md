@@ -28,13 +28,15 @@
 
 - 11월
   - [10일(passport(local,kakao,jwt))-project기술서](./2021-11/20211110.md)
-  - [10일(Sequelize&MySQL)-project기술서](./2021-11/20211111/sequelize&mysql.md)
+  - [11일(Sequelize&MySQL)-project기술서](./2021-11/20211111/sequelize&mysql.md)
+  - [14일(프로메테우스와 그라파나)](./2021-11/20211114.md)
 
 ### 💻 project-retrospective
 
 - 항해99 회고록
   - [미니프로젝트2[hanghae99-week4]](./project-retrospective/hanghae99-week4.md)
   - [미니프로젝트3[hanghae99-week5]](./project-retrospective/hanghae99-week5.md)
+  - [실전프로젝트[hanghae99-week6~ing]]
 
 ### node.js 교과서 공부
 
