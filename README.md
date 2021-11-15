@@ -5,7 +5,7 @@
 - CORS
   - [CORS 오류](./Error/corsErr.md)
   - [ERR_HTTP_HEADERS_SENT 에러](./Error/ERR_HTTP_HEADERS_SENT.md)
-  - [docker Mounts-denied](./Error/docker-Mounts-denied.md) : 미해결 중
+  - [docker Mounts-denied](./Error/docker-Mounts-denied/error.md) : 미해결 중
 
 ### 2021 TIL
 
