@@ -59,3 +59,10 @@ volumes을 못읽어들이는거 같다.
 [https://docs.docker.com/desktop/mac/](https://docs.docker.com/desktop/mac/) 이페이지도 가보고 도커 파일 경로도 설정 해봤다..
 
 해결을 못한채... 내일 도커 volumes을 공부할꺼다..
+
+### 2021-11-17
+
+해결
+
+- 경로 문제 및 mac 문제로 인해 ec2에서는 정상적으로 경로를 읽어드림.
+- mac에서 docker의 Resources-File sharing 에서 경로 설정이 문제 였던거 같다.
