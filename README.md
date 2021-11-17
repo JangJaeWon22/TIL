@@ -5,7 +5,7 @@
 - CORS
   - [CORS 오류](./Error/corsErr.md)
   - [ERR_HTTP_HEADERS_SENT 에러](./Error/ERR_HTTP_HEADERS_SENT.md)
-  - [docker Mounts-denied](./Error/docker-Mounts-denied/error.md) : 미해결 중
+  - [docker Mounts-denied](./Error/docker-Mounts-denied/error.md)
 
 ### 2021 TIL
 
@@ -30,7 +30,8 @@
 - 11월
   - [10일(passport(local,kakao,jwt))-project기술서](./2021-11/20211110.md)
   - [11일(Sequelize&MySQL)-project기술서](./2021-11/20211111/sequelize&mysql.md)
-  - [14일(프로메테우스와 그라파나)](./2021-11/20211114.md)
+  - [14일(프로메테우스와 그라파나 개념)](./2021-11/20211114.md)
+  - [17일(프로메테우스와 그라파나 적용)](./2021-11/20211117)
 
 ### 💻 project-retrospective
 
