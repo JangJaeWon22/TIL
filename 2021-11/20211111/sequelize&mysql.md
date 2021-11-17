@@ -10,7 +10,7 @@ Sequelize와 같은 ORM을 사용할 때 더 의미가 명확하기 때문에 �
 
 ### dbdiagram.io
 
-![focus-with-me.png](./image/focus-with-me.png)
+![focus-with-me.png](focus-with-me.png)
 
 ### 1. 모듈 설치
 
