@@ -1,13 +1,15 @@
 # Today I Learned(TIL) Wiki
 
-### Error
+### 😈 Error
 
 - CORS
   - [CORS 오류](./Error/corsErr.md)
   - [ERR_HTTP_HEADERS_SENT 에러](./Error/ERR_HTTP_HEADERS_SENT.md)
   - [docker Mounts-denied](./Error/docker-Mounts-denied/error.md)
 
-### TIL
+---
+
+### 📖 TIL
 
 #### Jest
 
@@ -41,12 +43,12 @@
 
 - [내가 보기 편할려고 만드는 Sequelize](./sequelize/sequelize_20211015.md)
 - [sequelize 관계 설정 공부](./sequelize/sequelize_20211024.md)
-- [Sequelize&MySQL-project 적용 방식](./sequelize/sequelize_and_mysql/sequelize&mysql_20211111.md)
+- [Sequelize&MySQL-project 적용 방식](./sequelize/sequelize&mysql/sequelize&mysql_20211111.md)
 
 #### winston
 
 - [winston 처음 공부](./winston/winston_20211019.md)
-- [winston&morgan-project 적용 방식](./winston&morgan/winston&morgan_20211118.md)
+- [winston&morgan-project 적용 방식](./winston/winston&morgan/winston&morgan_20211118.md)
 
 #### passport
 
@@ -55,25 +57,29 @@
 #### prometheus and grafana
 
 - [프로메테우스와 그라파나 개념](./prometheus&grafana/prometheus&grafana_20211114.md)
-- [프로메테우스와 그라파나 적용-project 적용 방식](./prometheus&grafana/prometheus&grafana_20211117/prometheus&grafana_20211117.md)
+- [프로메테우스와 그라파나 적용-project 적용 방식](./prometheus&grafana/prometheus&grafana/prometheus&grafana_20211117.md)
+
+---
 
 ### 💻 project-retrospective
 
-- 항해99 회고록
+#### 항해99 회고록
 
-  - [주특기주차(자료구조, Stack, Queue)[hanghae99-week2])](./project-retrospective/hanghae99-week2.md)
-  - [주특기주차[hanghae99-week3])](./project-retrospective/hanghae99-week3.md)
-  - [미니프로젝트2[hanghae99-week4]](./project-retrospective/hanghae99-week4.md)
-  - [미니프로젝트3[hanghae99-week5]](./project-retrospective/hanghae99-week5.md)
-  - [실전프로젝트[hanghae99-week6~ing]
+- [주특기주차(자료구조, Stack, Queue)[hanghae99-week2])](./project-retrospective/hanghae99-week2.md)
+- [주특기주차[hanghae99-week3])](./project-retrospective/hanghae99-week3.md)
+- [미니프로젝트2[hanghae99-week4]](./project-retrospective/hanghae99-week4.md)
+- [미니프로젝트3[hanghae99-week5]](./project-retrospective/hanghae99-week5.md)
+- [실전프로젝트[hanghae99-week6~ing]
 
-- 항해99 실전프로젝트 TIL
+#### 항해99 실전프로젝트 TIL
 
 - [passport(local,kakao,jwt)-project 적용 방식](./passport/passport_20211110.md)
-- [Sequelize&MySQL-project 적용 방식](./sequelize/sequelize_and_mysql/sequelize&mysql_20211111.md)
-- [프로메테우스와 그라파나 적용-project 적용 방식](./prometheus&grafana/prometheus&grafana_20211117/prometheus&grafana_20211117.md)
-- [winston&morgan-project 적용 방식](./winston&morgan/winston&morgan_20211118.md)
+- [Sequelize&MySQL-project 적용 방식](./sequelize/sequelize&mysql/sequelize&mysql_20211111.md)
+- [프로메테우스와 그라파나 적용-project 적용 방식](./prometheus&grafana/prometheus&grafana/prometheus&grafana_20211117.md)
+- [winston&morgan-project 적용 방식](./winston/winston&morgan/winston&morgan_20211118.md)
 
-### node.js 교과서 공부
+---
+
+### 📕 node.js 교과서 공부
 
 - [implicit](./node.js-book/node.js.md)

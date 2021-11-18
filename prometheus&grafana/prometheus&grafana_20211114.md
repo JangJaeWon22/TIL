@@ -1,8 +1,10 @@
-# 프로메테우스와 그라파나
+# TIL
 
-# 프로메테우스
+## 프로메테우스와 그라파나
 
-## Node.js 모니터링
+### 프로메테우스
+
+#### Node.js 모니터링
 
 "서비스 모니터링"이라는 용어는 시스템에 대한 실시간 정량 데이터를 수집, 처리, 수집 및 표시하는 작업을 의미합니다.
 
@@ -17,7 +19,7 @@
   - 서비스가 "얼마나 충만한 지" 에 대해 알려줌
   - CPU 사용량이 90% 인 경우 시스템에서 더 많은 트래픽을 처리 할 수 있을지 확인 가능
 
-## 모니터링의 도구
+#### 모니터링의 도구
 
 팀에서 모니터링 도구를 선택하면 다음 측면을 고려해야 됩니다.
 
@@ -50,14 +52,14 @@
   마이크로 서비스는 이를 효과적으로 디버깅하고 모니터링하기위한 특정 도구와 철학이 필요합니다.
   추적 또는 보안 검사를 배포해야합니까?
 
-## 프로메테우스로 노드 모리터링
+#### 프로메테우스로 노드 모리터링
 
 [Prometheus](https://prometheus.io/) 는 Node.js **모니터링** 및 **경고를** 위한 **오픈 소스** 솔루션입니다 . 강력한 데이터 압축 기능과 시계열 데이터에 대한 빠른 데이터 쿼리 기능을 제공합니다.
 
 > 시계열은 동일한 메트릭 및 동일한 레이블에 속하는 불변의 타임 스탬프 값의 스트림입니다.
 > 레이블을 통해 메트릭이 다차원이됩니다.
 
-## 데이터 수집 및 특정 항목 유형
+#### 데이터 수집 및 특정 항목 유형
 
 Prometheus 는 모든 응용 프로그램 `GET /metrics`이 Prometheus 인스턴스에서 주기적으로 가져올 수 있는 끝점 을 노출해야 합니다.
 
@@ -72,7 +74,7 @@ Prometheus 는 모든 응용 프로그램 `GET /metrics`이 Prometheus 인스�
 - **요약**
   히스토그램과 유사하게, 샘플 관측치, 슬라이딩 시간 창에 걸쳐 구성 가능한 분 수를 계산합니다.
 
-## Node.js 응용 프로그램 모니터링
+#### Node.js 응용 프로그램 모니터링
 
 우리는 Node.js 애플리케이션을 Prometheus로 모니터랑하고 싶다면 다음과 같은 문제를 해결해야합니다.
 
@@ -91,7 +93,7 @@ Prometheus 는 모든 응용 프로그램 `GET /metrics`이 Prometheus 인스�
 - **페이징**
   **페이징에** 대한 에스컬레이션 정책 적용으로 알림 받기
 
-## Node.js 측정 항목 내보내기
+#### Node.js 측정 항목 내보내기
 
 Node.js 애플리케이션에서 메트릭을 수집하고이를 Prometheus에 공개하려면 [prom-client](https://github.com/siimon/prom-client) npm 라이브러리를 사용할 수 있습니다 .
 
@@ -132,7 +134,7 @@ app.get("/metrics", (req, res) => {
 });
 ```
 
-## 검색
+#### 검색
 
 우리가 우리의 통계를 수집 한 후에, 우리는 시각적으로 그들로부터 어떤 가치를 추출하고자합니다.
 
@@ -160,11 +162,11 @@ histogram_quantile(0.95, sum(rate(http_request_duration_ms_bucket[1m])) by (le, 
 avg(rate(http_request_duration_ms_sum[1m]) / rate(http_request_duration_ms_count[1m])) by (service, route, method, code)
 ```
 
-### 경고 알림
+#### 경고 알림
 
 Prometheus에는 쿼리를 사용하여 기대치를 정의 할 수있는 내장 된 경고 기능이 함께 제공되지만 Prometheus 경고에는 알림 시스템이 제공되지 않습니다. 하나를 설정하려면 [경고 관리자](https://prometheus.io/docs/alerting/alertmanager/) 또는 다른 외부 프로세스 를 사용해야합니다 .
 
-# 그라파나
+### 그라파나
 
 Prometheus의 내장 시각화 방법은 쿼리 출력을 검사하는 데 적합하지만 대시 보드 용으로 사용할 수는 없습니다.
 
@@ -174,7 +176,7 @@ Grafana는 오픈 소스, 플러그 형 **시각화 플랫폼** 입니다. �
 
 Grafana에서는 [기존 대시 보드를](https://github.com/RisingStack/example-prometheus-nodejs/blob/master/grafana-dashboard.json) 가져 오거나 자신을 만들 수 있습니다.
 
-# 결론
+### 결론
 
 Prometheus는 응용 프로그램을 모니터링하는 강력한 오픈 소스 도구이지만 볼 수 있듯이 도구는 기본적으로 작동하지 않습니다.
 
