@@ -13,8 +13,8 @@
 
 #### Jest
 
-- [middleware, Jest를 통한 코드테스트](./JEST/jest_20211010.md)
-- [jest 다시 공부](./JEST/jest_20211021.md)
+- [middleware, Jest를 통한 코드테스트](./jest/jest_20211010.md)
+- [jest 다시 공부](./jest/jest_20211021.md)
 
 #### Eslint
 
