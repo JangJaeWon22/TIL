@@ -1,6 +1,6 @@
 # Today I Learned(TIL) Wiki
 
-### 😈 Error
+## 😈 Error
 
 - CORS
   - [CORS 오류](./Error/corsErr.md)
@@ -9,7 +9,7 @@
 
 ---
 
-### 📖 TIL
+## 📖 TIL
 
 #### Jest
 
@@ -61,7 +61,7 @@
 
 ---
 
-### 💻 project-retrospective
+## 💻 project-retrospective
 
 #### 항해99 회고록
 
@@ -80,6 +80,6 @@
 
 ---
 
-### 📕 node.js 교과서 공부
+## 📕 node.js 교과서 공부
 
 - [implicit](./node.js-book/node.js.md)
