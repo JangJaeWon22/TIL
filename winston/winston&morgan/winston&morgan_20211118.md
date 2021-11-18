@@ -117,7 +117,7 @@ getPosts: async (req, res) => {
 
 ### 7. 파일 시스템에 저장 된 logger 확인
 
-[start_ex.png](./start_ex.png)
+![start_ex.png](start_ex.png)
 
 ---
 
@@ -130,7 +130,7 @@ getPosts: async (req, res) => {
 
 ### 9. winston을 통해 문제를 찾아 해결 함.
 
-! [error01.png](./error01.png)
+![error01.png](error01.png)
 
 ```jsx
 error : userInfo/userFollow middleware followerCount:2 error: TypeError: Cannot set property 'followerCount' of null
