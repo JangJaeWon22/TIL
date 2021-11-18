@@ -128,7 +128,7 @@ getPosts: async (req, res) => {
 
 ### 9. winston을 통해 문제를 찾아 해결 함.
 
-[error01.png](./error01.png)
+! [error01.png](./error01.png)
 
 ```jsx
 error : userInfo/userFollow middleware followerCount:2 error: TypeError: Cannot set property 'followerCount' of null

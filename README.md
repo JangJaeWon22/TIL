@@ -7,38 +7,72 @@
   - [ERR_HTTP_HEADERS_SENT 에러](./Error/ERR_HTTP_HEADERS_SENT.md)
   - [docker Mounts-denied](./Error/docker-Mounts-denied/error.md)
 
-### 2021 TIL
+### TIL
 
-- 10월
+#### Jest
 
-  - [9일(항해99 주특기주차 WA)](./2021-10/20211009.md)
-  - [10일(middleware, Jest를 통한 코드테스트)](./2021-10/20211010.md)
-  - [10일(자료구조, Stack, Queue)](./2021-10/20211010-2.md)
-  - [11일(Eslint 깔고 설정해보기)](./2021-10/20211011.md)
-  - [12일(git branch 공부)](./2021-10/20211012.md)
-  - [13일(ec2 배포해보기)](./2021-10/20211013.md)
-  - [14일(내가 보기 편할려고 만드는 my-sql 명령어)](./2021-10/20211014-mysql.md)
-  - [14일(단방향 해쉬함수(bcrypt)](./2021-10/20211014-bcrypt.md)
-  - [15일(내가 보기 편할려고 만드는 Sequelize)](./2021-10/20211015-Sequelize.md)
-  - [16일(git PR 해보기)](./2021-10/20211016-gitPR.md)
-  - [18일(MySQL Foreign-KEY)](./2021-10/20211018-MySQL-FK.md)
-  - [19일(winston)](./2021-10/20211019-winston.md)
-  - [20일(MySQL ec2 설치)](./2021-10/20211020-ec2mysql.md)
-  - [21일~22일(jest 다시 공부)](./2021-10/20211021-jest.md)
-  - [24일(sequelize 관계 설정 공부)](./2021-10/20211024-Sequelize관계.md)
+- [middleware, Jest를 통한 코드테스트](./JEST/jest_20211010.md)
+- [jest 다시 공부](./JEST/jest_20211021.md)
 
-- 11월
-  - [10일(passport(local,kakao,jwt))-project기술서](./2021-11/20211110.md)
-  - [11일(Sequelize&MySQL)-project기술서](./2021-11/20211111/sequelize&mysql.md)
-  - [14일(프로메테우스와 그라파나 개념)](./2021-11/20211114.md)
-  - [17일(프로메테우스와 그라파나 적용)](./2021-11/20211117/prometheus_and_grafana.md)
+#### Eslint
+
+- [Eslint 깔고 설정해보기](./Eslint/Eslint_20211011.md)
+
+#### git
+
+- [git branch 공부](./git/git_20211012.md)
+- [git PR 해보기](./git/git_20211016.md)
+
+#### ec2 server
+
+- [ec2 배포해보기](./ec2/ec2_20211013.md)
+- [MySQL ec2 설치](./ec2/ec2_20211020.md)
+
+#### MySQL
+
+- [내가 보기 편할려고 만드는 my-sql 명령어](./MySQL/MySQL_20211014.md)
+- [MySQL Foreign-KEY](./MySQL/MySQL_20211018.md)
+
+#### bcrypt
+
+- [단방향 해쉬함수(bcrypt)](./bcrypt/bcrypt_20211014.md)
+
+#### sequelize
+
+- [내가 보기 편할려고 만드는 Sequelize](./sequelize/sequelize_20211015.md)
+- [sequelize 관계 설정 공부](./sequelize/sequelize_20211024.md)
+- [Sequelize&MySQL-project 적용 방식](./sequelize/sequelize_and_mysql/sequelize&mysql_20211111.md)
+
+#### winston
+
+- [winston 처음 공부](./winston/winston_20211019.md)
+- [winston&morgan-project 적용 방식](./winston&morgan/winston&morgan_20211118.md)
+
+#### passport
+
+- [passport(local,kakao,jwt)-project 적용 방식](./passport/passport_20211110.md)
+
+#### prometheus and grafana
+
+- [프로메테우스와 그라파나 개념](./prometheus&grafana/prometheus&grafana_20211114.md)
+- [프로메테우스와 그라파나 적용-project 적용 방식](./prometheus&grafana/prometheus&grafana_20211117/prometheus&grafana_20211117.md)
 
 ### 💻 project-retrospective
 
 - 항해99 회고록
+
+  - [주특기주차(자료구조, Stack, Queue)[hanghae99-week2])](./project-retrospective/hanghae99-week2.md)
+  - [주특기주차[hanghae99-week3])](./project-retrospective/hanghae99-week3.md)
   - [미니프로젝트2[hanghae99-week4]](./project-retrospective/hanghae99-week4.md)
   - [미니프로젝트3[hanghae99-week5]](./project-retrospective/hanghae99-week5.md)
-  - [실전프로젝트[hanghae99-week6~ing]]
+  - [실전프로젝트[hanghae99-week6~ing]
+
+- 항해99 실전프로젝트 TIL
+
+- [passport(local,kakao,jwt)-project 적용 방식](./passport/passport_20211110.md)
+- [Sequelize&MySQL-project 적용 방식](./sequelize/sequelize_and_mysql/sequelize&mysql_20211111.md)
+- [프로메테우스와 그라파나 적용-project 적용 방식](./prometheus&grafana/prometheus&grafana_20211117/prometheus&grafana_20211117.md)
+- [winston&morgan-project 적용 방식](./winston&morgan/winston&morgan_20211118.md)
 
 ### node.js 교과서 공부
 
