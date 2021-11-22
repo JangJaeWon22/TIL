@@ -58,11 +58,12 @@ setting 값으로 github에서 STUDY_IP, STUDY_SSH_ID, STUDY_SSH_KEY, STUDY_SSH_
 
 - STUDY_IP : ubuntu 주소
 - STUDY_SSH_ID : ubuntu
-- STUDY_SSH_KEY : SSH KEY
 - STUDY_SSH_PORT: 22
+- STUDY_SSH_KEY : SSH KEY
 
   > - STUDY_IP 는 ec2 서버의 주소.
   > - STUDY_SSH_ID : ubuntu 다. FileZilla에서 연결할 때 계정 ID는 ubuntu로 연결 하던걸 생각하자.
+  > - STUDY_SSH_PORT : 22 포트가 기본이다. 또 한번 FileZilla를 생각해 보자 포트가 22로 맞췄을 꺼다.
   > - STUDY_SSH_KEY:
   >   가장 중요하다. 5일 동안 삽질을.. 하고 알아 냈다.
   >   - ubuntu 서버에서 public 키를 발급 한다.
@@ -88,8 +89,6 @@ cat id_rsa.pub >> ~/.ssh/authorized_keys
 // Secrets에 등록하기 위해 cat으로 조회하고 복 붙.
 cat authorized_keys
 ```
-
-- STUDY_SSH_PORT : 22 포트가 기본이다. 또 한번 FileZilla를 생각해 보자 포트가 22로 맞췄을 꺼다.
 
 - .git add commit push
   해보면 action이 자동적으로 서버 배포 후 pm2 reload 를 함.
