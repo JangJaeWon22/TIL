@@ -61,12 +61,12 @@ setting 값으로 github에서 STUDY_IP, STUDY_SSH_ID, STUDY_SSH_KEY, STUDY_SSH_
 - STUDY_SSH_KEY : SSH KEY
 - STUDY_SSH_PORT: 22
 
-- STUDY_IP 는 ec2 서버의 주소.
-- STUDY_SSH_ID : ubuntu 다. FileZilla에서 연결할 때 계정 ID는 ubuntu로 연결 하던걸 생각하자.
-- STUDY_SSH_KEY:
-  가장 중요하다. 5일 동안 삽질을.. 하고 알아 냈다.
-  - ubuntu 서버에서 public 키를 발급 한다.
-  - 그리고 기존 연결은 ubuntu keypair.pem으로 하던걸 기억하자.
+  > - STUDY_IP 는 ec2 서버의 주소.
+  > - STUDY_SSH_ID : ubuntu 다. FileZilla에서 연결할 때 계정 ID는 ubuntu로 연결 하던걸 생각하자.
+  > - STUDY_SSH_KEY:
+  >   가장 중요하다. 5일 동안 삽질을.. 하고 알아 냈다.
+  >   - ubuntu 서버에서 public 키를 발급 한다.
+  >   - 그리고 기존 연결은 ubuntu keypair.pem으로 하던걸 기억하자.
 
 ```jsx
 // ec2 서버에서 실행
