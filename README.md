@@ -24,6 +24,7 @@
 
 - [git branch 공부](./git/git_20211012.md)
 - [git PR 해보기](./git/git_20211016.md)
+- [GitHub Action-project 적용 방식](./git/github_action_20211122.md)
 
 #### ec2 server
 
@@ -77,6 +78,7 @@
 - [Sequelize&MySQL-project 적용 방식](./sequelize/sequelize&mysql/sequelize&mysql_20211111.md)
 - [프로메테우스와 그라파나 적용-project 적용 방식](./prometheus&grafana/prometheus&grafana/prometheus&grafana_20211117.md)
 - [winston&morgan-project 적용 방식](./winston/winston&morgan/winston&morgan_20211118.md)
+- [GitHub Action-project 적용 방식](./git/github_action_20211122.md)
 
 ---
 
