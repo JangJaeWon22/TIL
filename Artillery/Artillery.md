@@ -77,7 +77,7 @@ npx artillery run test.json
 
 #### 6. 실행 결과
 
-![test.png](test.png)
+![test.png](./Artillery_test/test.png)
 
 - 총 요청이 1800번 수행 후 성공
 - 초당 60번 요청이 처리
