@@ -21,6 +21,7 @@
 ### 3. 설치 확인
 
     ```jsx
+    //공룡을 확인해보자
     ./node_modules/.bin/artillery dino
     ```
 
