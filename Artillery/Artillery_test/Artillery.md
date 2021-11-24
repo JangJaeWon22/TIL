@@ -4,9 +4,9 @@
 
 #### 1. 모듈 선택
 
-    - artillery
-        - Node js 에서 부화 테스트 모듈을 검색하면 처음으로 떴습니다.
-        - 공룡을 만날 수 있습니다.
+- artillery
+  - Node js 에서 부화 테스트 모듈을 검색하면 처음으로 떴습니다.
+  - 공룡을 만날 수 있습니다.
 
 ---
 
@@ -29,49 +29,49 @@ npm install artillery -D
 
 #### 4. 스크립트 작성
 
-    src/test.json
+src/test.json
 
-    ```jsx
-    {
-        "config": {
-            "target": "테스트할 서버 주소",
-            "phases": [
-                {
-                    "duration": 60,
-                    "arrivalRate": 30
-                }
-            ]
-        },
-        "scenarios": [
+```jsx
+{
+    "config": {
+        "target": "테스트할 서버 주소",
+        "phases": [
             {
-                "flow": [
-                    {
-                        "get": {
-                            "url": "/api/posts"
-                        }
-                    },
-                    {
-                        "get": {
-                            "url": "/api/posts/3/comments"
-                        }
-                    }
-                ]
+                "duration": 60,
+                "arrivalRate": 30
             }
         ]
-    }
-    ```
+    },
+    "scenarios": [
+        {
+            "flow": [
+                {
+                    "get": {
+                        "url": "/api/posts"
+                    }
+                },
+                {
+                    "get": {
+                        "url": "/api/posts/3/comments"
+                    }
+                }
+            ]
+        }
+    ]
+}
+```
 
-    현재 테스트  api는 단위로 나눠서 해볼 생각이였습니다.
+현재 테스트 api는 단위로 나눠서 해볼 생각이였습니다.
 
-    가장 걱정이 되는 로직인 부분을 2가지만 추려서 테스트 했습니다.
+가장 걱정이 되는 로직인 부분을 2가지만 추려서 테스트 했습니다.
 
 ---
 
 #### 5. 테스트 실행
 
-    ```jsx
-    npx artillery run test.json
-    ```
+```jsx
+npx artillery run test.json
+```
 
 ---
 
