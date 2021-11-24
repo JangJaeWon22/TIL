@@ -13,7 +13,7 @@
 
 #### Artillery
 
-- [Artillery-서버부화테스트](./Artillery/Artillery_test/Artillery.md)
+- [Artillery-서버부화테스트](./Artillery/Artillery.md)
 
 #### Jest
 
