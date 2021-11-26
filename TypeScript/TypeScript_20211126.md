@@ -13,9 +13,9 @@ TypeScript는 MicroSoft에서 개발하며 유지보수 하는 오픈소스 프�
 
 ### 2. 개발 환경 setting
 
-- 1.  node.js가 설치 되어야 함.
+##### - node.js가 설치 되어야 함.
 
-- 2.  모듈 설치 및 setting
+##### - 모듈 설치 및 setting
 
 ```jsx
     // 타입 스크립트 설치
@@ -28,7 +28,7 @@ TypeScript는 MicroSoft에서 개발하며 유지보수 하는 오픈소스 프�
     tsc -init
 ```
 
-- 3.  tsconfig.json 설정 변경
+##### - tsconfig.json 설정 변경
 
 ```jsx
 {
@@ -42,23 +42,24 @@ TypeScript는 MicroSoft에서 개발하며 유지보수 하는 오픈소스 프�
 }
 ```
 
-- 4.  index.ts 파일 생성
+##### - index.ts 파일 생성
 
 ```jsx
 console.log("hello");
 ```
 
-- 5.  터미널 창 실행
+##### - 터미널 창 실행
 
 ```jsc
 // node.js는 typescipt를 이해하지 못하기 때문에 일반적으로 js 코드를 컴파일 하는 작업이 필요함
     tsc
 ```
 
-- 6.  index.js, index.js.map 생성된 거 확인.
+##### - index.js, index.js.map 생성된 거 확인.
 
-- 7.  package.json 내용 변경
-      실행 될때 마다 컴파일 되도록 수정
+##### - package.json 내용 변경
+
+- 실행 될때 마다 컴파일 되도록 수정
 
 ```jsx
 ...
@@ -76,21 +77,21 @@ console.log("hello");
 
 ### 3. 파일 분리 및 자동 실행
 
-- 1.  tcs-watch 설치
+##### - tcs-watch 설치
 
 ```jsx
 npm install -D tsc-watch
 ```
 
-- 2.  src, dist 폴더 생성
-
+##### - src, dist 폴더 생성
 
       - src에는 ts 파일을 넣고
       - 컴파일 된 파일은 dist에 넣을 예정
 
-- 3.  tsconfig.json 수정
-      compilerOptions에 outDir: dist 설정을 해주면서 컴파일 된 js파일을 dist로 보냄
-      include에서 src/\*_/_ 설정 해줌 -> src의 모든 파일을 컴파일 함.
+##### - tsconfig.json 수정
+
+        - compilerOptions에 outDir: dist 설정을 해주면서 컴파일 된 js파일을 dist로 보냄
+        - include에서 src/\*_/_ 설정 해줌 -> src의 모든 파일을 컴파일 함.
 
 ```jsx
 {
@@ -105,7 +106,7 @@ npm install -D tsc-watch
 }
 ```
 
-- 4.  package.json script 부분 수정
+##### - package.json script 부분 수정
 
 ```jsx
 ...
@@ -117,9 +118,9 @@ npm install -D tsc-watch
 ...
 ```
 
-- 5.  .gitignore에 dist 추가
+##### - .gitignore에 dist 추가
 
-- 6.  실행
+##### - 실행
 
 ```jsx
     npm start
@@ -140,7 +141,7 @@ npm install -D tsc-watch
 
 ### 4.class로 가지고 놀기
 
-- 1. src/index.ts
+##### - src/index.ts
 
 ```jsx
 class Human {
@@ -165,6 +166,8 @@ console.log(sayHi(jaewon))
 
 export {};
 ```
+
+---
 
 ### 5. test 해보기
 
