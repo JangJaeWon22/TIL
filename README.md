@@ -11,6 +11,10 @@
 
 ## 📖 TIL
 
+#### TypeScript
+
+- [typescript-시작하기](./TypeScript/TypeScript_20211126.md)
+
 #### Artillery
 
 - [Artillery-서버부화테스트](./Artillery/Artillery_20211124.md)
