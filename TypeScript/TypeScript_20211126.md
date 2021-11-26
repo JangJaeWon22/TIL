@@ -198,7 +198,7 @@ class User{
 
 const userInfo: User = new User("abc@email.com", "123123", 20, "jaewon", "010-1234-1234", "2021-11-26")
 
-let registerUser: [User] = [userInfo];
+let registerUser: User[] = [userInfo];
 
 console.log(registerUser)
 
