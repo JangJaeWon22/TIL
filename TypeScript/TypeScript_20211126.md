@@ -132,9 +132,13 @@ npm install -D tsc-watch
 ```
 
 > 별도로 nodemon을 사용 할경우
+>
 > npm install --save-dev nodemon ts-node
+>
 > "scripts": {
+>
 > "start": "nodemon — exec ts-node src/index.ts"
+>
 > }
 
 ---
