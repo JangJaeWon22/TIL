@@ -11,6 +11,10 @@
 
 ## 📖 TIL
 
+#### Algorithm
+
+- [Algorithm 1일차](./Algorithm/algorithm01.md)
+
 #### TypeScript
 
 - [TypeScript-시작하기](./TypeScript/TypeScript_20211126.md)
