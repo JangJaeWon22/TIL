@@ -46,7 +46,7 @@ https://github.com/erionRK621/studyWithMe
 
 refactoring-history
 
-- [Daily-refactoring-history](./doc/refactoring-history)
+- [Daily-refactoring-history](https://github.com/JangJaeWon22/focus-with-me/tree/main/doc/refactoring-history)
 
 ---
 
