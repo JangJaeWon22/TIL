@@ -14,6 +14,7 @@
 #### Algorithm
 
 - [Algorithm 1일차](./Algorithm/algorithm01.md)
+- [Algorithm 2일차](./Algorithm/algorithm02.md)
 
 #### TypeScript
 
