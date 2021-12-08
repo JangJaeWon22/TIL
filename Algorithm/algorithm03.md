@@ -124,7 +124,138 @@ value = cmd.split(" ")
 
 ---
 
-## 2. 신규 아이디 추천 - 프로그래머스
+## 2. 스택 - 백준 10828 문제
+
+#### 문제
+
+정수를 저장하는 스택을 구현한 다음, 입력으로 주어지는 명령을 처리하는 프로그램을 작성하시오.
+
+명령은 총 다섯 가지이다.
+
+push X: 정수 X를 스택에 넣는 연산이다.
+
+pop: 스택에서 가장 위에 있는 정수를 빼고, 그 수를 출력한다. 만약 스택에 들어있는 정수가 없는 경우에는 -1을 출력한다.
+
+size: 스택에 들어있는 정수의 개수를 출력한다.
+
+empty: 스택이 비어있으면 1, 아니면 0을 출력한다.
+
+top: 스택의 가장 위에 있는 정수를 출력한다. 만약 스택에 들어있는 정수가 없는 경우에는 -1을 출력한다.
+
+#### 입력
+
+첫째 줄에 주어지는 명령의 수 N (1 ≤ N ≤ 10,000)이 주어진다. 둘째 줄부터 N개의 줄에는 명령이 하나씩 주어진다. 주어지는 정수는 1보다 크거나 같고, 100,000보다 작거나 같다. 문제에 나와있지 않은 명령이 주어지는 경우는 없다.
+
+#### 출력
+
+출력해야하는 명령이 주어질 때마다, 한 줄에 하나씩 출력한다.
+
+1번과 같이 유명한 자료구조 후입 선출 스택이다.
+
+```python
+import sys
+
+n = int(input())
+
+
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+
+class Stack:
+    def __init__(self):
+        self.head = None
+        self.length = 0
+
+    def push(self, value):
+        new_head = Node(value)
+        self.length += 1
+        if self.empty() == 1:
+            self.head = new_head
+            return
+        new_head.next = self.head
+        self.head = new_head
+        return
+
+    def pop(self):
+        if self.empty() == 1:
+            return -1
+        delete_head = self.head
+        self.head = self.head.next
+        self.length -= 1
+        return delete_head.data
+
+    def size(self):
+        return self.length
+
+    def empty(self):
+        if self.head is None:
+            return 1
+        return 0
+
+    def top(self):
+        if self.empty() == 1:
+            return -1
+        return self.head.data
+
+
+stack = Stack()
+for _ in range(n):
+    cmd = sys.stdin.readline().rstrip()
+    value = cmd.split()
+    if "push" in value:
+        stack.push(int(value[1]))
+    if "pop" in value:
+        print(stack.pop())
+    if "size" in value:
+        print(stack.size())
+    if "empty" in value:
+        print(stack.empty())
+    if "top" in value:
+        print(stack.top())
+
+```
+
+- 다행히도 head만 가지고 놀면 된다. 왜 무조건 나중에 들어온거가 먼저 나가기 때문에 헤더를 제일 나중에 들어온 걸로 맞추면 된다.
+
+- push 메서드
+
+```python
+    def push(self, value):
+        new_head = Node(value)
+        self.length += 1
+        if self.empty() == 1:      # 초기 입력 상태일 시
+            self.head = new_head   # 현재의 self.head 가 None 이기 때문에 그냥 new_head 로 넣어 주기만 하면 됨
+            return
+        new_head.next = self.head  # 스택에 데이터가 있을 경우에 new_head.next가 가리키는 건 현재의 self.head로 바꿔주고
+        self.head = new_head       # 기존 head는 입력받은 new_head로 덮어 씌우면 됨.
+        return
+```
+
+- push 메서드의 경우 new_head를 입력 받고, 초기 상태인 None에서 입력받은 new_head로 바꿔 주면 끝
+- 데이터가 이미 들어가 있는 경우에는 new_head.next 를 기존에 있던 head로 지정해주고, 그 후 지금 head를 new_head로 바꿔주면 된다.
+
+- pop 메서드
+
+```python
+
+    def pop(self):
+        if self.empty() == 1:
+            return -1
+        delete_head = self.head
+        self.head = self.head.next
+        self.length -= 1
+        return delete_head.data
+
+```
+
+- pop는 head를 뽑아 내고 다음 밑에 있는 head를 현재 헤더로 가지고 있으면 되기 때문에 delete_head에 데이터를 넣고, 다음 데이터를 가르키는 self.head.next를 head 값으로 바꿔주면 된다.
+
+---
+
+## 3. 신규 아이디 추천 - 프로그래머스
 
 [문제 설명 링크 참조](https://programmers.co.kr/learn/courses/30/lessons/72410)
 
