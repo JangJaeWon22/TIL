@@ -18,6 +18,7 @@
 - [Algorithm 3일차](./Algorithm/algorithm03.md)
 - [Algorithm 4일차](./Algorithm/algorithm04.md)
 - [Algorithm 5일차](./Algorithm/algorithm05.md)
+- [Algorithm 6일차](./Algorithm/algorithm06.md)
 
 #### TypeScript
 
