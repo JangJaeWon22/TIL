@@ -6,3 +6,4 @@
 - [Algorithm 4일차](./Algorithm_study/algorithm04.md)
 - [Algorithm 5일차](./Algorithm_study/algorithm05.md)
 - [Algorithm 6일차](./Algorithm_study/algorithm06.md)
+- [Algorithm 7일차](./Algorithm_study/algorithm07.md)

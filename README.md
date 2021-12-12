@@ -13,7 +13,7 @@
 
 #### Algorithm
 
-- [Algorithm](./Algorithm/README.md)
+- [Algorithm-항해99](./Algorithm/README.md)
 
 #### TypeScript
 
