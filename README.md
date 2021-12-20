@@ -84,7 +84,7 @@
 - [미니프로젝트2[hanghae99-week4]](./project-retrospective/hanghae99-week4.md)
 - [미니프로젝트3[hanghae99-week5]](./project-retrospective/hanghae99-week5.md)
 - [실전프로젝트[hanghae99-week6~week12]](./project-retrospective/hanghae99-mainProject/hanghae99-mainProject.md)
-- [알고리즘1주차[hanghae99-algorithm-week1]](./Algorithm/hanghae99-algorithm-week1.md)
+- [알고리즘[hanghae99-algorithm-week1]](./Algorithm/항해99/hanghae99-algorithm-week1.md)
 
 #### 항해99 실전프로젝트 TIL
 
