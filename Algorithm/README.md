@@ -3,6 +3,7 @@
 - Algorithm 개인 공부
 
   - [실패율 - 프로그래머스 level-1](./Algorithm_study/level-1/실패율-프로그래머스.md)
+  - [binarygap - codility level-1](./Algorithm_study/level-1/codility-level1.md)
 
 - 항해 99 Algorithm 주차
 
