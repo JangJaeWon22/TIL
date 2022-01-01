@@ -4,7 +4,7 @@
 
   - [실패율 - 프로그래머스 level-1](./Algorithm_study/level-1/실패율-프로그래머스.md)
   - [binarygap - codility level-1](./Algorithm_study/level-1/codility-level1.md)
-  - [CyclicRotation - codility level-2](./Algorithm_study/level-2/cyclicRotation-leve2.md)
+  - [CyclicRotation - codility level-2](./Algorithm_study/level-2/CyclicRotation-leve2.md)
 
 - 항해 99 Algorithm 주차
 
