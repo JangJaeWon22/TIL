@@ -15,6 +15,11 @@
 
 - [Algorithm](./Algorithm/README.md)
 
+#### JavaScript
+
+- [Hoisting](./study/Hoisting.md)
+- [Closure](./study/Closure.md)
+
 #### TypeScript
 
 - [TypeScript-시작하기](./TypeScript/TypeScript_20211126.md)
