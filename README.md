@@ -19,6 +19,7 @@
 
 - [Hoisting](./study/Hoisting.md)
 - [Closure](./study/Closure.md)
+- [DNS](./study/DNS.md)
 
 #### TypeScript
 
