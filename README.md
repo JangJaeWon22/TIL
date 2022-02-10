@@ -8,7 +8,6 @@
 
 - JAVA
   - [다형성](./java/polymorphism(Feat overriding).md)
-  - - [Algorithm](./Algorithm/README.md)
 
 #### Algorithm
 
