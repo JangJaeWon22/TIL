@@ -7,7 +7,7 @@
 ## 📖 TIL
 
 - JAVA
-  - [다형성](./java/polymorphism(Feat overriding).md)
+  - [다형성](./java/다형성.md)
 
 #### Algorithm
 
